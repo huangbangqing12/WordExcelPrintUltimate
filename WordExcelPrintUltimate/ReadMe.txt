@@ -1,0 +1,75 @@
+﻿================================================================================
+    MICROSOFT 基础类库 : WordExcelPrintUltimate 项目概述
+===============================================================================
+
+应用程序向导已为您创建了此 WordExcelPrintUltimate 应用程序。此应用程序不仅演示 Microsoft 基础类的基本使用方法，还可作为您编写应用程序的起点。
+
+本文件概要介绍组成 WordExcelPrintUltimate 应用程序的每个文件的内容。
+
+WordExcelPrintUltimate.vcxproj
+    这是使用应用程序向导生成的 VC++ 项目的主项目文件，其中包含生成该文件的 Visual C++ 的版本信息，以及有关使用应用程序向导选择的平台、配置和项目功能的信息。
+
+WordExcelPrintUltimate.vcxproj.filters
+    这是使用“应用程序向导”生成的 VC++ 项目筛选器文件。它包含有关项目文件与筛选器之间的关联信息。在 IDE 中，通过这种关联，在特定节点下以分组形式显示具有相似扩展名的文件。例如，“.cpp”文件与“源文件”筛选器关联。
+
+WordExcelPrintUltimate.h
+    这是应用程序的主头文件。
+    其中包括其他项目特定的标头（包括 Resource.h），并声明 CWordExcelPrintUltimateApp 应用程序类。
+
+WordExcelPrintUltimate.cpp
+    这是包含应用程序类 CWordExcelPrintUltimateApp 的主应用程序源文件。
+
+WordExcelPrintUltimate.rc
+    这是程序使用的所有 Microsoft Windows 资源的列表。它包括 RES 子目录中存储的图标、位图和光标。此文件可以直接在 Microsoft Visual C++ 中进行编辑。项目资源包含在 2052 中。
+
+res\WordExcelPrintUltimate.ico
+    这是用作应用程序图标的图标文件。此图标包括在主资源文件 WordExcelPrintUltimate.rc 中。
+
+res\WordExcelPrintUltimate.rc2
+    此文件包含不在 Microsoft Visual C++ 中进行编辑的资源。您应该将不可由资源编辑器编辑的所有资源放在此文件中。
+
+WordExcelPrintUltimate.reg
+    这是一个示例 .reg 文件，显示框架将为您设置的注册设置类型。可以将此作为 .reg
+    文件随应用程序一起使用。
+
+WordExcelPrintUltimate.idl
+    此文件包含应用程序类型库的接口描述语言源代码。
+
+
+/////////////////////////////////////////////////////////////////////////////
+
+应用程序向导创建一个对话框类和一个自动化代理类：
+
+WordExcelPrintUltimateDlg.h、WordExcelPrintUltimateDlg.cpp - 对话框
+    这些文件包含 CWordExcelPrintUltimateDlg 类。此类定义应用程序的主对话框的行为。对话框模板包含在 WordExcelPrintUltimate.rc 中，该文件可以在 Microsoft Visual C++ 中编辑。
+
+DlgProxy.h、DlgProxy.cpp - 自动化对象
+    这些文件包含 CWordExcelPrintUltimateDlgAutoProxy 类。此类称为对话框的自动化代理类，因为它负责公开可供自动化控制器用于访问对话框的自动化方法和属性。这些方法和属性并不是直接从对话框类公开，因为对于基于模式对话框的 MFC 应用程序而言，将自动化对象与用户界面分离开来更加清晰便捷。
+
+/////////////////////////////////////////////////////////////////////////////
+
+其他功能：
+
+ActiveX 控件
+    该应用程序包含对使用 ActiveX 控件的支持。
+
+/////////////////////////////////////////////////////////////////////////////
+
+其他标准文件:
+
+StdAfx.h, StdAfx.cpp
+    这些文件用于生成名为 WordExcelPrintUltimate.pch 的预编译头 (PCH) 文件和名为 StdAfx.obj 的预编译类型文件。
+
+Resource.h
+    这是标准头文件，可用于定义新的资源 ID。Microsoft Visual C++ 将读取并更新此文件。
+
+/////////////////////////////////////////////////////////////////////////////
+
+其他注释:
+
+应用程序向导使用“TODO:”来指示应添加或自定义的源代码部分。
+
+如果应用程序使用共享 DLL 中的 MFC，您将需要重新分发 MFC DLL。如果应用程序所使用的语言与操作系统的区域设置不同，则还需要重新分发相应的本地化资源 mfc110XXX.DLL。
+有关上述话题的更多信息，请参见 MSDN 文档中有关重新分发 Visual C++ 应用程序的部分。
+
+/////////////////////////////////////////////////////////////////////////////

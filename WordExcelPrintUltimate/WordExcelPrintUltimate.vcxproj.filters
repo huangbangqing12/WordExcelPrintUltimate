@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MFC">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="MsWord">
+      <UniqueIdentifier>{c22582bf-d33e-483e-8a8b-1621af625ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MsExcel">
+      <UniqueIdentifier>{ca28f3d8-7f99-435e-8ad3-8a50482a6607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WpsWord">
+      <UniqueIdentifier>{a19342c2-c9c4-4b9b-a683-ccca0d652114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WpsExcel">
+      <UniqueIdentifier>{d2e7eaef-1892-4597-8e1f-6b424b94f988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonMethod">
+      <UniqueIdentifier>{27e7dbe4-ed78-444c-80b3-44ea47923664}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WordExcelPrintUltimate.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="WordExcelPrintUltimateDlg.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgProxy.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="MsWord\CMsWordApplication.h">
+      <Filter>MsWord</Filter>
+    </ClInclude>
+    <ClInclude Include="MsWord\CMsWordDocument0.h">
+      <Filter>MsWord</Filter>
+    </ClInclude>
+    <ClInclude Include="MsWord\CMsWordDocuments.h">
+      <Filter>MsWord</Filter>
+    </ClInclude>
+    <ClInclude Include="MsExcel\CMsExcelApplication.h">
+      <Filter>MsExcel</Filter>
+    </ClInclude>
+    <ClInclude Include="MsExcel\CMsExcelWorkbook.h">
+      <Filter>MsExcel</Filter>
+    </ClInclude>
+    <ClInclude Include="MsExcel\CMsExcelWorkbooks.h">
+      <Filter>MsExcel</Filter>
+    </ClInclude>
+    <ClInclude Include="MsExcel\CMsExcelWorksheet.h">
+      <Filter>MsExcel</Filter>
+    </ClInclude>
+    <ClInclude Include="MsExcel\CMsExcelWorksheets.h">
+      <Filter>MsExcel</Filter>
+    </ClInclude>
+    <ClInclude Include="WpsExcel\CWpsExcelApplication.h">
+      <Filter>WpsExcel</Filter>
+    </ClInclude>
+    <ClInclude Include="WpsExcel\CWpsExcelWorkbook.h">
+      <Filter>WpsExcel</Filter>
+    </ClInclude>
+    <ClInclude Include="WpsExcel\CWpsExcelWorkbooks.h">
+      <Filter>WpsExcel</Filter>
+    </ClInclude>
+    <ClInclude Include="WpsExcel\CWpsExcelWorksheet.h">
+      <Filter>WpsExcel</Filter>
+    </ClInclude>
+    <ClInclude Include="WpsExcel\CWpsExcelWorksheets.h">
+      <Filter>WpsExcel</Filter>
+    </ClInclude>
+    <ClInclude Include="WpsWord\CWpsWordApplication.h">
+      <Filter>WpsWord</Filter>
+    </ClInclude>
+    <ClInclude Include="WpsWord\CWpsWordDocument0.h">
+      <Filter>WpsWord</Filter>
+    </ClInclude>
+    <ClInclude Include="WpsWord\CWpsWordDocuments.h">
+      <Filter>WpsWord</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonMethod\CommonMethod.h">
+      <Filter>CommonMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonMethod\PrintExcel.h">
+      <Filter>CommonMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonMethod\PrintWord.h">
+      <Filter>CommonMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="MsExcel\CMsExcelPageSetup.h">
+      <Filter>MsExcel</Filter>
+    </ClInclude>
+    <ClInclude Include="MsWord\CMSWordPageSetup.h">
+      <Filter>MsWord</Filter>
+    </ClInclude>
+    <ClInclude Include="WpsWord\CWpsWordPageSetup.h">
+      <Filter>WpsWord</Filter>
+    </ClInclude>
+    <ClInclude Include="WpsExcel\CWpsExcelPageSetup.h">
+      <Filter>WpsExcel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DlgProxy.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="WordExcelPrintUltimate.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="WordExcelPrintUltimateDlg.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonMethod\CommonMethod.cpp">
+      <Filter>CommonMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonMethod\PrintExcel.cpp">
+      <Filter>CommonMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonMethod\PrintWord.cpp">
+      <Filter>CommonMethod</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WordExcelPrintUltimate.reg" />
+    <None Include="res\WordExcelPrintUltimate.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WordExcelPrintUltimate.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\WordExcelPrintUltimate.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="WordExcelPrintUltimate.idl">
+      <Filter>MFC</Filter>
+    </Midl>
+  </ItemGroup>
+</Project>

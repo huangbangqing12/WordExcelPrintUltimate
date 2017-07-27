@@ -1,0 +1,29 @@
+// WordExcelPrintUltimate.idl : WordExcelPrintUltimate.exe 的类型库源
+
+// 此文件将由 MIDL 编译器处理以产生
+// 类型库(WordExcelPrintUltimate.tlb)。
+
+[ uuid(99F39A0F-F743-454D-BE83-5A116F2281AD), version(1.0) ]
+library WordExcelPrintUltimate
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  CWordExcelPrintUltimateDoc 的主调度接口
+	
+	[ uuid(D835C838-DC60-4B8B-AD42-FB9E54417843) ]
+	dispinterface IWordExcelPrintUltimate
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  CWordExcelPrintUltimateDoc 的类信息
+	
+	[ uuid(5CE108BC-836E-41CE-9946-02DD894E5A53) ]
+	coclass WordExcelPrintUltimate
+	{
+		[default] dispinterface IWordExcelPrintUltimate;
+	};
+};

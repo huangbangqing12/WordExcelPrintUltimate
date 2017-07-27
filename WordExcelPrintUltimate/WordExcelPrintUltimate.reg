@@ -1,0 +1,17 @@
+REGEDIT
+; 此 .REG 文件可能由 SETUP 程序使用。
+;   如果 SETUP 程序不可用，则调用
+;   CWinApp::RegisterShellFileTypes 和 COleObjectFactory::UpdateRegistryAll
+;   在 InitInstance 中对下列项自动进行注册。
+
+
+HKEY_CLASSES_ROOT\WordExcelPrintUltimate.Application = WordExcelPrintUltimate Application
+
+
+HKEY_CLASSES_ROOT\WordExcelPrintUltimate.Application\CLSID = {5CE108BC-836E-41CE-9946-02DD894E5A53}
+
+HKEY_CLASSES_ROOT\CLSID\{5CE108BC-836E-41CE-9946-02DD894E5A53} = WordExcelPrintUltimate Application
+HKEY_CLASSES_ROOT\CLSID\{5CE108BC-836E-41CE-9946-02DD894E5A53}\ProgId = WordExcelPrintUltimate.Application
+
+
+HKEY_CLASSES_ROOT\CLSID\{5CE108BC-836E-41CE-9946-02DD894E5A53}\LocalServer32 = WordExcelPrintUltimate.EXE
